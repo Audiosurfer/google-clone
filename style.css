@@ -1,0 +1,111 @@
+/* Google Clone CSS */
+
+* {
+    font-family: Arial, sans-serif;
+}
+#pagefoot {
+    position: absolute;
+    background: linear-gradient(to right bottom, #efefef, #eae8e8);
+    width: 100%;
+    bottom: 0%;
+    height: 40px;
+}
+
+li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    padding: 8px;
+}
+
+footer ul li {
+    padding-right: 16px;
+}
+
+#searcharea {
+    text-align: center;
+    padding-top: 8%;
+    margin: auto;
+}
+
+.rightfoot {
+    float: right;
+}
+
+#searchbar {
+    height: 31px;
+    background: url("microphone.png") 99% 50% no-repeat;
+    background-size: 24px;
+}
+
+#searchbar:active {
+    border-color: "blue";
+}
+
+a {
+    text-decoration: none;
+    color: #4d4c4c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #f0f0f0, #ebebeb);
+    margin-top: 12px;
+    padding: 8px;
+    border: 1px solid #f1f1f1;
+    font-size: 11px;
+    color: #4d4c4c;
+}
+
+#logo {
+    position: relative;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 269px;
+    height: 95px;
+}
+
+#gridimg {
+    height: 30px;
+    position: relative;
+    top: 9px;
+}
+
+#topbtn {
+    background: linear-gradient(to bottom, #3440ff, #5328f2);
+    border: 1px solid #2434fa;
+    padding: 6px 10px;
+    color: white; 
+}
+
+#topbtn:active {
+    background: linear-gradient(to bottom, #0c16a3, #260a95);
+    border: 1px solid #260991;
+}
+
+button:hover {
+    border-color: #ccc8c8;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.leftfoot {
+   float: left;
+}
